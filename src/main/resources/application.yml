@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/weatherbot
+    username: root
+    password: 'lolex25122003'
+  jpa:
+    hibernate:
+    ddl-auto: create-drop
+
+bot:
+  username: ''
+  token: ''
+
+openweather:
+  url: 'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=536577483b941bb9617ef4bccbe632ed&units=metric&lang=ru'
